@@ -324,6 +324,10 @@ ul{
     color: var(--secondary-color);
 }
 
+.aside .img{
+    display: block;
+}
+
 .aside .item{
     display: flex;
     justify-content: center;
@@ -344,13 +348,14 @@ ul{
     position: relative;
  }
 
-.aside .inscription{
+.aside .inscription-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-title);
+    text-align: center;
  }
 
 .aside .inscription{
